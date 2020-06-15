@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/c51f55f8a1.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Landing Page</title>
+  </head>
+  <body>
+    <nav>
+      <div class="logo">
+        <img src="https://randomuser.me/api/portraits/men/76.jpg" alt="user" />
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Portfolio</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <header>
+      <button id="toggle" class="toggle">
+        <i class="fa fa-bars fa-2x"></i>
+      </button>
+
+      <h1>My Landing Page</h1>
+
+      <p>
+        Laboris exercitation sint cillum aliquip sit nostrud tempor adipisicing
+        labore fugiat commodo laboris.
+      </p>
+
+      <button id="open" class="cta-btn">Sign Up</button>
+    </header>
+
+    <div class="container">
+      <h2>What is this landing page about?</h2>
+      <p>
+        Esse in cillum labore dolor in ullamco velit fugiat Lorem aute velit
+        cupidatat consequat. Dolor sint esse quis sit velit occaecat aliqua
+        fugiat eiusmod. Officia eiusmod veniam amet irure fugiat. Sit excepteur
+        dolor irure fugiat amet. Anim nostrud est labore labore est.
+      </p>
+      <p>
+        Esse excepteur veniam sit labore aute qui ipsum nulla reprehenderit
+        velit commodo. Excepteur commodo sit ex aliqua culpa et quis laboris
+        cillum culpa est excepteur. Magna ipsum ea nisi minim esse minim
+        proident duis duis aliquip reprehenderit. Commodo occaecat sit commodo
+        eu laboris pariatur proident qui dolor deserunt laborum consectetur nisi
+        reprehenderit.
+      </p>
+
+      <h2>Tell Me More</h2>
+
+      <p>
+        Ex labore ea id id nulla ex reprehenderit pariatur ea et elit veniam
+        dolore. Exercitation pariatur sit duis non laborum non sit velit ut
+        reprehenderit est consectetur amet cillum. Incididunt occaecat
+        exercitation labore ad sunt et est.
+      </p>
+
+      <h2>Benefits</h2>
+      <ul>
+        <li>Lifetime Access</li>
+        <li>30 Day Money Back</li>
+        <li>Customer Support</li>
+      </ul>
+
+      <p>
+        Deserunt voluptate ullamco sunt laborum ad non pariatur esse deserunt.
+        Adipisicing excepteur est quis ullamco labore non. Nisi excepteur nulla
+        aute cillum non veniam nostrud mollit pariatur culpa laboris. Qui culpa
+        irure ipsum amet incididunt esse incididunt.
+      </p>
+    </div>
+
+    <!-- Modal -->
+    <div id="modal" class="modal-container">
+      <div class="modal">
+        <button id="close" class="close">
+          <i class="fa fa-times"></i>
+        </button>
+        <div class="modal-header">
+          <h3>Sign Up</h3>
+        </div>
+        <div class="modal-content">
+          <p>Register with us to get offers, support and more</p>
+          <form class="modal-form">
+            <div>
+              <label for="name">Name</label>
+              <input type="text" id="id" placeholder="Enter Name" />
+            </div>
+            <div>
+              <label for="email">Email</label>
+              <input type="email" id="email" placeholder="Enter Email" />
+            </div>
+            <div>
+              <label for="password">Password</label>
+              <input
+                type="password"
+                id="password"
+                placeholder="Enter Password"
+              />
+            </div>
+            <div>
+              <label for="password2">Confirm Password</label>
+              <input
+                type="password"
+                id="password2"
+                placeholder="Confirm Password"
+              />
+            </div>
+            <input type="submit" value="Submit" class="submit-btn" />
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
